@@ -19,6 +19,7 @@ margin: 50px;
 }
 .vscode:hover{
     transform: scale(1,5);
-.bootstrap:hover{}
+.bootstrap:hover{
+    transform: rotateZ(360deg)
 }
 
