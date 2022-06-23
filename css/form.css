@@ -10,15 +10,15 @@ margin-bottom: 7%;
     color: #ecd6c4;
     font-size: 24px;
     font-weight: 400;
-    margin-left: 7%;
+    margin-left: 10%;
 }
 #check{
     display: inline-block;
     color:#ecd6c4 ;
 }
 form{
-    margin-top: 2%;
 margin-left: 36%;
+margin-top: 2%;
 }
 fieldset{
 border: 0;
@@ -28,12 +28,12 @@ input,select,textarea,button{
     font-weight: 400;
     font-size: 1rem;
     color: #8e5d52;
-    border: 5px;
+    border: 0;
     border-radius: 5px;
     background-color:#fff2e7;
     padding-left: 10px;
     padding-right: 10px;
-resize:nome ;
+    resize:nome ;
 }
 .grupo::before, .grupo::after{
     display: table;
@@ -49,14 +49,37 @@ resize:nome ;
     color: #ecd6c4;
     display:block
 }
-.campo input:focus ,.campo select:focus,.campo textarea:focus
-border : 1px solid # fff2e7;
+fieldset.grupo.campo{
+    float: left;
+    margin-right: 1em;
+}
+.campo input[type="email"] ,.campo select,.campo textarea{
+border : 1px solid #fff2e7;
+box-shadow:2px 2px 2px rgbs(0,0,0,0,2);
+display:block;
+}
+.campo select option{
+    padding: 1em;
+}
+.campo input:focus, .campo select:focus, .campo textarea:focus{
+    background-color: #fff2e7;
 }
 .btn{
 background-color: #ecd6c4;
 width: 4em;
 box-shadow: 4px 5px 4px rgb(0,0,0,0.3);
 text-shadow:1px 1px 1px  rgb(0,0,0,0.3);
-border:0%
+border:0%;
 margin: botten 1em ;
+font-family:'sarala',san-serif;
+font: size 1.2em;
+font-weight:400;
+padding: 0.2em 0.6em;
+cursor: pointer;
+border: radius 5px;
+}
+.btn:hover{
+    background-color: #fff2e7;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2, );
+    text-shadow: none;
 }

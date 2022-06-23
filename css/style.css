@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dhurjati&family=Righteous&family=Sarala:wght@400;700&display=swap');
 *{
 margin: 0;
-padding: 0%;
+padding: 0;
 box-sizing: border-box;
 text-decoration:none ;
 }
@@ -28,16 +28,22 @@ body{
     font-weight: 400;
     font-size: 18px;
     color: #FFF2E7;
+    list-style: none;
+ 
 }
 .cabecalho-menu-item{
     text-decoration: none;
+    color: #FFF2E7;
+}
+.cabecalho-menu-item:hover{
     color: #ecd6c4;
+    cursor: pointer;
 }
 
 .cabecalho-menu-lista{
-    list-style: nome;
     display: inline;
     margin: 20px;
+
 }
 .conteudo{
     margin-bottom: 48px;
@@ -54,13 +60,13 @@ body{
     gap: 32px;
 }
 #conteudo-principal-titulo{
-    font-family: 'righteous',cursive;
+    font-family: 'Righteous',cursive;
     color: #ecd6c4;
     font-size: 64px;
     font-weight: 400;
 }
 .conteudo-principal-subtitulo{
-    font-family:'sarala', sans-serif;
+font-family:'Sarala', sans-serif;
 color: #ecd6c4; 
 font-size: 24px;
 font-weight: 400;
@@ -72,13 +78,18 @@ font-weight: 400;
     border-radius: 20px;
     box-shadow:4px 5px 4px 0 #00000040;
     border: none;
-    font-family: 'sarala', sans-serif;
+    font-family: 'Sarala', sans-serif;
     font-size: 24px;
     font-weight: 400;
-    color: #2F2325;
+  
 }
 .conteudo-principal-btn:hover{
-    background-color: #fff2ef
+    background-color: #fff2ef;
+    cursor: pointer;
+}
+.imagem-novobot{
+    padding-top: 48px;
+    height: 430px;
 }
 .conteudo-secundario{
 display: flex;
@@ -93,10 +104,11 @@ margin-top: 48px;
    color: #FFF2E7;
    font-size: 24px;
    font-weight: 400;
+   font-family: 'Righteous', cursive;
 }
 .conteudo-secundario-escrito{
-font-size:'SARALA',sans-serif;
-font-weight: 700''''''''''''''''''''''''''''''''';
+font-size:'Sarala',sans-serif;
+font-weight: 700;
 font-size: 18px;
 color: #ecd6c4;
 }
@@ -112,8 +124,8 @@ border-top:0.4px solid #FFF2E7
 }
 .desenvolvedor{
     color:#ecd6c4;
-    font-family: 'sarala';sans-serif;
+    font-family: 'Sarala',sans-serif;
     font-weight: 400;
     font-size: 14px;
-    padding-top:  48px; ;
+    padding-top:  48px; 
 }
